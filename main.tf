@@ -23,7 +23,7 @@ terraform {
 resource "azurerm_service_plan" "example" {
   name                = "michal-app-service-plan"
   location            = "westeurope"
-  resource_group_name = "example-resources"
+  resource_group_name = "rg-MichalK"
   os_type             = "Linux"
   sku_name            = "P0v3"
 }
